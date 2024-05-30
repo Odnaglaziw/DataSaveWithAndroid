@@ -4,5 +4,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/mainLayout">
+    <Spinner
+        android:id="@+id/shapeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
 
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input 1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input 2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/input3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input 3"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Result"
+        android:textSize="18sp" />
 </LinearLayout>
