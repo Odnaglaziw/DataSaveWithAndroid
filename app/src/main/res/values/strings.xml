@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">SavesSave</string>
     <string name="textview">TextView</string>
+    <string-array name="shapes">
+        <item>Triangle</item>
+        <item>Rectangle</item>
+        <item>Circle</item>
+    </string-array>
 </resources>
